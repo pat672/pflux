@@ -1,3 +1,5 @@
+cargo-features = ["named-profiles"] # Cargo pre 1.57 needs this set explicitly. 
+
 [workspace]
 members = ["lib/*"]
 resolver = "2"
