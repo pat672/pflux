@@ -1,4 +1,4 @@
-cargo-features = ["named-profiles"]
+cargo-features = ["named-profiles"] # Cargo pre 1.57 needs this set explicitly.
 
 [workspace]
 members = ["lib/*"]
